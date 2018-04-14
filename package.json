@@ -1,10 +1,20 @@
 {
   "name": "edb-response",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Formatação Padrão EDB para respostas de API.",
   "main": "src/",
+  "config": {
+    "commitMessage": "Automatizado o Controle de Versão"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "standard": "standard",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
+    "gst": "git status",
+    "gad": "git add .",
+    "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
+    "gta": "cross-var git tag v$npm_package_version",
+    "gpo": "git push origin master --tags",
+    "gpb": "git push bb master --tags"
   },
   "repository": {
     "type": "git",
@@ -19,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/digitalbocca/edb-response/issues"
   },
-  "homepage": "https://github.com/digitalbocca/edb-response#readme"
+  "homepage": "https://github.com/digitalbocca/edb-response#readme",
+  "devDependencies": {
+    "cross-var-no-babel": "^1.2.0",
+    "standard": "^11.0.1"
+  }
 }

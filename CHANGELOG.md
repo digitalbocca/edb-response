@@ -2,7 +2,12 @@
 
 ## edb-response
 
-### v0.2.0
+### v0.3.0
+
+#### Mudanças na v0.3.0
+
+- Adicionado exemplo de uso no README.
+- Automatizado o Controle de Versão.
 
 #### Mudanças na v0.2.0
 

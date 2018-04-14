@@ -5,23 +5,16 @@
  *
  * @file index.js
  * @namespace src
- * @description Middleware de resposta HTTP.
+ * @description Formatação Padrão EDB para respostas de API.
  * @since v0.1.0
  *
  * @copyright (c)2018 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v1.0.1
- */
-
-/**
- * @todo Separar metodos em outros arquivos e importar aqui.
+ * @version v2.0.0
  */
 
 const edbResponse = {
-  // preparar (req) {
-  //   req.edb = {}
-  // },
   enviar (req, res) {
     const resposta = req.edb.config
     res.status(resposta.status).json({
