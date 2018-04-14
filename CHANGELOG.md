@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.1.1
+### v0.2.0
+
+#### Mudanças na v0.2.0
+
+- Uso apenas com o metodo resposta.
 
 #### Mudanças na v0.1.1
 

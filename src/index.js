@@ -19,9 +19,9 @@
  */
 
 const edbResponse = {
-  preparar (req) {
-    req.edb = {}
-  },
+  // preparar (req) {
+  //   req.edb = {}
+  // },
   enviar (req, res) {
     const resposta = req.edb.config
     res.status(resposta.status).json({
@@ -34,7 +34,9 @@ const edbResponse = {
     })
   },
   resposta (st, ms, dd, req, res) {
+    req.edb = {}
     req.edb.config = {status: st, msg: ms, dados: dd}
+    this.enviar(req, res)
   }
 }
 module.exports = edbResponse
