@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.1.0
+### v0.1.1
+
+#### Mudanças na v0.1.1
+
+- Correção no metodo de preparacao que não conhece o parametro req.
 
 #### Mudanças na v0.1.0
 

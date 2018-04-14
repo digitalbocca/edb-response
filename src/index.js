@@ -11,7 +11,7 @@
  * @copyright (c)2018 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v1.0.0
+ * @version v1.0.1
  */
 
 /**
@@ -19,7 +19,7 @@
  */
 
 const edbResponse = {
-  preparar () {
+  preparar (req) {
     req.edb = {}
   },
   enviar (req, res) {
