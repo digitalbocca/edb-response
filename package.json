@@ -1,0 +1,23 @@
+{
+  "name": "edb-response",
+  "version": "0.1.0",
+  "description": "Formatação Padrão EDB para respostas de API.",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbocca/edb-response.git"
+  },
+  "keywords": [
+    "response",
+    "edb"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbocca/edb-response/issues"
+  },
+  "homepage": "https://github.com/digitalbocca/edb-response#readme"
+}
