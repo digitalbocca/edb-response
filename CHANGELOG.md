@@ -2,7 +2,12 @@
 
 ## edb-response
 
-### v0.3.0
+### v0.4.0
+
+#### Mudanças na v0.4.0
+
+- Ignorada a pasta de documentação no .npmignore.
+- Gerada documentação automática com JSDoc.
 
 #### Mudanças na v0.3.0
 

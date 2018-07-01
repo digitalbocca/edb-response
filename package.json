@@ -1,20 +1,24 @@
 {
   "name": "edb-response",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Formatação Padrão EDB para respostas de API.",
   "main": "src/",
   "config": {
-    "commitMessage": "Automatizado o Controle de Versão"
+    "commitMessage": "Gerada documentação automática com JSDoc"
   },
   "scripts": {
     "standard": "standard",
-    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
+    "predocs": "rm -rf ./docs",
+    "docs": "jsdoc ./src -R ./README.md -a all -d ./docs",
+    "server": "http-server ./docs -c-1 -o",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb && npm run gpg",
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag v$npm_package_version",
     "gpo": "git push origin master --tags",
-    "gpb": "git push bb master --tags"
+    "gpb": "git push bb master --tags",
+    "gpg": "git push gl master --tags"
   },
   "repository": {
     "type": "git",
@@ -32,6 +36,8 @@
   "homepage": "https://github.com/digitalbocca/edb-response#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
+    "http-server": "^0.11.1",
+    "jsdoc": "^3.5.5",
     "standard": "^11.0.1"
   }
 }
