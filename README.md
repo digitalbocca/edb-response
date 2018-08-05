@@ -2,9 +2,30 @@
 
 ## edb-response
 
-### v0.4.0
+### v0.5.0
 
 > Formatação Padrão EDB para respostas de api.
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/099992aed09bb6cb59e9/maintainability)](https://codeclimate.com/github/digitalbocca/edb-response/maintainability)
+[![EDB](https://badgen.net/badge/produto/EDB/f19b2c)](https://estudiodigitalbocca.com.br)
+[![JavaScript Style Guide](https://badgen.net/badge/code%20style/standard/yellow)](https://standardjs.com)
+[![NPMv](https://badgen.net/npm/v/edb-response)](https://www.npmjs.com/package/edb-response)
+[![NPMlicense](https://badgen.net/npm/license/edb-response)](https://www.npmjs.com/package/edb-response)
+[![NPMdownloads](https://badgen.net/npm/dt/edb-response)](https://www.npmjs.com/package/edb-response)
+[![GHv](https://badgen.net/github/tag/digitalbocca/edb-response)](https://github.com/digitalbocca/edb-response)
+[![DVdep](https://badgen.net/david/dep/digitalbocca/edb-response)](https://www.npmjs.com/package/edb-response)
+[![DVdev](https://badgen.net/david/dev/digitalbocca/edb-response)](https://www.npmjs.com/package/edb-response)
+[![PPi](https://badgen.net/packagephobia/install/edb-response)](https://www.npmjs.com/package/edb-response)
+[![PPp](https://badgen.net/packagephobia/publish/edb-response)](https://www.npmjs.com/package/edb-response)
+[![BPp](https://badgen.net/bundlephobia/min/edb-response)](https://www.npmjs.com/package/edb-response)
+[![BPp](https://badgen.net/bundlephobia/minzip/edb-response)](https://www.npmjs.com/package/edb-response)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
+<!-- https://badgen.net/
+https://badgen.net/badge/produto/EDB/f19b2c
+
+#f19b2c -->
 
 ## ATENÇÃO
 
