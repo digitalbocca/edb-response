@@ -2,7 +2,7 @@
 
 ## edb-response
 
-### v0.6.0
+### v0.7.0
 
 > Formatação Padrão EDB para respostas de api.
 
@@ -21,11 +21,6 @@
 [![BPp](https://badgen.net/bundlephobia/minzip/edb-response)](https://www.npmjs.com/package/edb-response)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
-
-<!-- https://badgen.net/
-https://badgen.net/badge/produto/EDB/f19b2c
-
-#f19b2c -->
 
 ## ATENÇÃO
 

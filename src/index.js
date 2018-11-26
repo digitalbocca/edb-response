@@ -53,7 +53,7 @@ const edbResponse = {
    */
   resposta (st, ms, dd, req, res) {
     req.edb = {}
-    req.edb.config = {status: st, msg: ms, dados: dd}
+    req.edb.config = { status: st, msg: ms, dados: dd }
     this.enviar(req, res)
   }
 }

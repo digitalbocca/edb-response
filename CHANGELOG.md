@@ -2,7 +2,12 @@
 
 ## edb-response
 
-### v0.6.0
+### v0.7.0
+
+#### Mudanças na v0.7.0
+
+- Modificação para atender StandardJS.
+- Melhoria na documentação.
 
 #### Mudanças na v0.6.0
 
