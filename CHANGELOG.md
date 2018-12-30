@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.7.0
+### v0.8.0
+
+#### Mudanças na v0.8.0
+
+- Melhoria na documentação.
 
 #### Mudanças na v0.7.0
 

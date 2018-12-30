@@ -1,10 +1,10 @@
 {
   "name": "edb-response",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Formatação Padrão EDB para respostas de API.",
   "main": "src/",
   "config": {
-    "commitMessage": "Modificação para atender StandardJS"
+    "commitMessage": "Melhoria na documentação"
   },
   "scripts": {
     "standard": "standard",
