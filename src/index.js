@@ -10,7 +10,7 @@
  * @copyright (c)2018-2019 Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v3.1.0
+ * @version v3.2.0
  */
 
 const edbResponse = {
@@ -33,7 +33,7 @@ const edbResponse = {
       dados: resposta.dados,
       apiVersion: process.env.VER,
       backend: process.env.BACK,
-      copyright: '(c)2018-2019 Estúdio Digital Bocca'
+      copyright: '(c)2019 Estúdio Digital Bocca'
     })
   },
 

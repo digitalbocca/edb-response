@@ -2,7 +2,7 @@
 
 ## edb-response
 
-### v0.8.0
+### v0.9.0
 
 > Formatação Padrão EDB para respostas de api.
 
