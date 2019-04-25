@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.9.0
+### v0.10.0
+
+#### Mudanças na v0.10.0
+
+- Aualização de dependências.
 
 #### Mudanças na v0.9.0
 
