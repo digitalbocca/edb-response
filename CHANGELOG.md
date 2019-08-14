@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.11.0
+### v0.12.0
+
+#### Mudanças na v0.12.0
+
+- Aualização de dependências.
 
 #### Mudanças na v0.11.0
 
@@ -57,4 +61,4 @@
 
 - Recebido o modulo edb-response para criação de um modulo NPM.
 
-> (c)2018 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> (c)2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
