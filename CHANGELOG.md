@@ -2,7 +2,11 @@
 
 ## edb-response
 
-### v0.14.0
+### v0.14.1
+
+#### Mudanças na v0.14.1
+
+- Correção no ano do copyright.
 
 #### Mudanças na v0.14.0
 
