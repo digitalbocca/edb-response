@@ -2,7 +2,7 @@
 
 ## edb-response
 
-### v0.13.0
+### v0.14.0
 
 > Formatação Padrão EDB para respostas de api.
 
@@ -69,9 +69,9 @@ edbResponse.resposta(
   "dados": {
     "msg": "Tudo OK"
   },
-  "apiVersion": "v0.13.0",
+  "apiVersion": "v0.14.0",
   "backend": "Nome do Sistema",
-  "copyright": "(c)2019 Estúdio Digital Bocca"
+  "copyright": "(c)2020 Estúdio Digital Bocca"
 }
 ```
 
@@ -87,4 +87,4 @@ edbResponse.resposta(
 
 - MIT
 
-> (c)2018-2019 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> (c)2018-2020 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
