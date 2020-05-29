@@ -1,13 +1,13 @@
 {
   "name": "edb-response",
-  "version": "0.14.1",
+  "version": "0.15.0",
   "description": "Formatação Padrão EDB para respostas de API.",
   "main": "src/",
   "config": {
-    "commitMessage": "Correção no ano do copyright"
+    "commitMessage": "Atualização de dependências"
   },
   "scripts": {
-    "standard": "standard",
+    "standard": "standard ./src",
     "predocs": "rm -rf ./docs",
     "docs": "jsdoc ./src -R ./README.md -a all -d ./docs",
     "server": "http-server ./docs -c-1 -o",
@@ -36,8 +36,8 @@
   "homepage": "https://github.com/digitalbocca/edb-response#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "http-server": "^0.12.1",
-    "jsdoc": "^3.6.3",
-    "standard": "^14.3.1"
+    "http-server": "^0.12.3",
+    "jsdoc": "^3.6.4",
+    "standard": "^14.3.4"
   }
 }

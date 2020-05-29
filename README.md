@@ -1,26 +1,65 @@
-# Estúdio Digital Bocca
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v0.15.0</p>
+  <h1 align="center">edb-response</h1>
+  <h4 align="center">
+    Formatação padrão EDB para resposta de API Rest
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v0.15.0/orange">
+    <a href="https://codeclimate.com/github/digitalbocca/edb-response/maintainability">
+      <img src="https://api.codeclimate.com/v1/badges/099992aed09bb6cb59e9/maintainability">
+    </a>
+    <a href="https://estudiodigitalbocca.com.br">
+      <img src="https://badgen.net/badge/produto/EDB/f19b2c">
+    </a>
+    <a href="https://standardjs.com">
+      <img src="https://badgen.net/badge/code%20style/standard/yellow">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/npm/v/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/npm/license/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/npm/dt/edb-response">
+    </a>
+    <a href="https://github.com/digitalbocca/edb-response">
+      <img src="https://badgen.net/github/tag/digitalbocca/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/david/dep/digitalbocca/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/david/dev/digitalbocca/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/packagephobia/install/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/packagephobia/publish/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/bundlephobia/min/edb-response">
+    </a>
+    <a href="https://www.npmjs.com/package/edb-response">
+      <img src="https://badgen.net/bundlephobia/minzip/edb-response">
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/standard/standard">
+      <img src="https://cdn.rawgit.com/standard/standard/master/badge.svg">
+    </a>
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## edb-response
+---
 
-### v0.14.1
+# edb-response - README
 
-> Formatação Padrão EDB para respostas de api.
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/099992aed09bb6cb59e9/maintainability)](https://codeclimate.com/github/digitalbocca/edb-response/maintainability)
-[![EDB](https://badgen.net/badge/produto/EDB/f19b2c)](https://estudiodigitalbocca.com.br)
-[![JavaScript Style Guide](https://badgen.net/badge/code%20style/standard/yellow)](https://standardjs.com)
-[![NPMv](https://badgen.net/npm/v/edb-response)](https://www.npmjs.com/package/edb-response)
-[![NPMlicense](https://badgen.net/npm/license/edb-response)](https://www.npmjs.com/package/edb-response)
-[![NPMdownloads](https://badgen.net/npm/dt/edb-response)](https://www.npmjs.com/package/edb-response)
-[![GHv](https://badgen.net/github/tag/digitalbocca/edb-response)](https://github.com/digitalbocca/edb-response)
-[![DVdep](https://badgen.net/david/dep/digitalbocca/edb-response)](https://www.npmjs.com/package/edb-response)
-[![DVdev](https://badgen.net/david/dev/digitalbocca/edb-response)](https://www.npmjs.com/package/edb-response)
-[![PPi](https://badgen.net/packagephobia/install/edb-response)](https://www.npmjs.com/package/edb-response)
-[![PPp](https://badgen.net/packagephobia/publish/edb-response)](https://www.npmjs.com/package/edb-response)
-[![BPp](https://badgen.net/bundlephobia/min/edb-response)](https://www.npmjs.com/package/edb-response)
-[![BPp](https://badgen.net/bundlephobia/minzip/edb-response)](https://www.npmjs.com/package/edb-response)
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+---
 
 ## ATENÇÃO
 
@@ -69,7 +108,7 @@ edbResponse.resposta(
   "dados": {
     "msg": "Tudo OK"
   },
-  "apiVersion": "v0.14.0",
+  "apiVersion": "v0.15.0",
   "backend": "Nome do Sistema",
   "copyright": "(c)2020 Estúdio Digital Bocca"
 }
@@ -79,9 +118,9 @@ edbResponse.resposta(
 >
 > OBS: **backend** pega os dados da env process.env.BACK
 
-## MUDANÇAS
+## REGISTRO DE ALTERAÇÕES
 
-- Veja no arquivo CHANGELOG.md
+- Veja no arquivo [CHANGELOG](CHANGELOG.md)
 
 ## LICENÇA
 
