@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.15.0</p>
+  <p align="center">Ultima Atualização na v0.16.0</p>
   <h1 align="center">edb-response</h1>
   <h4 align="center">
     Formatação padrão EDB para resposta de API Rest
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v0.15.0/orange">
+    <img src="https://badgen.net/badge/version/v0.16.0/orange">
     <a href="https://codeclimate.com/github/digitalbocca/edb-response/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/099992aed09bb6cb59e9/maintainability">
     </a>
@@ -62,6 +62,10 @@
 ---
 
 ## REGISTRO DE ALTERAÇÕES
+
+### Mudanças na v0.16.0
+
+- Atualização de dependências.
 
 ### Mudanças na v0.15.0
 
