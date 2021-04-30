@@ -7,10 +7,10 @@
  * @description Formatação Padrão EDB para respostas de API.
  * @since v0.1.0
  *
- * @copyright (c)2018-2020 Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
+ * @copyright (c)2018-2021 Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v3.3.0
+ * @version v3.4.0
  */
 
 const edbResponse = {
@@ -22,7 +22,7 @@ const edbResponse = {
    * @param {object} req - Objeto de request do express.
    * @param {object} res - Objeto de response do express.
    *
-   * @version 1.1.0
+   * @version 1.2.0
    * @since 0.1.0
    */
   enviar (req, res) {
@@ -33,7 +33,7 @@ const edbResponse = {
       dados: resposta.dados,
       apiVersion: process.env.VER,
       backend: process.env.BACK,
-      copyright: '(c)2020 Estúdio Digital Bocca'
+      copyright: '(c)2021 Estúdio Digital Bocca'
     })
   },
 
